@@ -8,7 +8,7 @@ from .replay_buffer import Transition, ReplayBuffer
 from .dqn_model import DeepQNetwork
 from .epsilon import DecayingEpsilon
 
-class Model:
+class AtariAgent:
     """
     Class used to create, train and test a learner using 
     Deep Q Learning.
